@@ -1,10 +1,11 @@
 // complete the given function
 
 function palindrome(str){
-	  let n = str.length;
-	 const str= str.toLowerCase();
+	  
+	 const string= str.toLowerCase();
+	 const n = string.length;
 	  for(let i=0; i<n; i++){
-      if(str[i] !== str[n-1-i]){
+      if(string[i] !== string[n-1-i]){
         return false;
         }
 	 }
