@@ -1,7 +1,7 @@
 // complete the given function
 
 function palindrome(str){
-	   const n = string.length;
+	   const n = str.length;
 	 const string= str.toLowerCase();
 	
 	  for(let i=0; i<n; i++){
